@@ -1,0 +1,25 @@
+#one>div{
+	padding:30px;
+}
+#one>div .mk{
+	border:solid 1px #eee;
+	height:160px;
+	color: #333;
+}
+#one>div .mk>div{
+    padding:10px 20px;
+}
+header{
+	height:30px;
+	line-height:30px;
+	border-bottom: solid 2px #fff;
+}
+#one .mk li{
+	height:40px;
+	line-height: 40px;
+    padding:0px 10px 0px 10px;
+}
+.mk li span{
+	float:right;
+}
+

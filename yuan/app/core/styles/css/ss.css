@@ -1,0 +1,313 @@
+#ss,
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+a{
+	text-decoration: none!important;
+}
+#ss>li:first-child{
+	border-top: 1px solid #DDD;
+}
+#ss>li {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	line-height: 50px;
+	border-bottom: 1px solid #DDD;
+	clear: both;
+	background: #F3F3F3;
+}
+
+#ss .sl-key {
+	float: left;
+	width: 100px;
+	height: 100%;
+	
+	padding-left: 10px;
+	color: #666;
+	margin-bottom: 0px;
+}
+
+/*.v-fixed {
+	height: 99px;
+}*/
+
+#ss p ul {
+	padding-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	zoom: 1;
+	height: 50px;
+}
+
+.sl-value {
+	padding-top:10px;
+	margin-left: 110px;
+	padding-right: 130px;
+	padding-left: 10px;
+	overflow: hidden;
+	zoom: 1;
+	background: #fff;
+	padding-bottom: 10px;
+}
+
+#ss .sl-b-letter {
+	display: none;
+	float: left;
+	overflow: hidden;
+	zoom: 1;
+	padding-top: 6px;
+	margin-bottom: 10px;
+}
+
+#ss .sl-value .sl-v-logos li {
+	float: left;
+	display: inline;
+	width: 100px;
+	height: 60px;
+	padding: 0;
+	border: 1px solid #DDD;
+	/*margin: -1px -1px 0 0;*/
+	background: #FFF;
+	text-align: center;
+	overflow: hidden;
+}
+
+#ss .sl-value .sl-v-logos li a {
+	display: block;
+	height: 60px;
+	width: 98px;
+	overflow: hidden;
+	/*text-overflow: ellipsis;*/
+	/*white-space: nowrap;*/
+	
+	word-wrap:break-word;
+	zoom: 1;
+	color: #009944;
+	line-height: 58px;
+	font-size: 12px;
+	overflow: hidden;
+}
+#ss .sl-value .sl-v-logos li a img{
+	width:98px;
+	height:60px;
+}
+
+span.bl{
+	/*display: block;*/
+	line-height: 60px!important;
+	vertical-align: middle;
+	
+}
+#ss li a img {
+	/*margin: 5px 6px;*/
+	vertical-align: middle;
+}
+
+.clr {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+#ss .sl-b-letter li {
+	float: left;
+	height: 20px;
+	line-height: 16px;
+	border: 1px solid #FFF;
+	padding: 0 3px;
+	cursor: default;
+	text-align: center;
+	color: #666;
+	padding: 0 8px;
+}
+
+#ss .sl-b-letter li.curr,
+#ss .sl-b-letter li:hover {
+	border-color: #009944;
+	color: #009944;
+	font-size:13px;
+}
+
+#ss .sl-ext {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 110px;
+	height: auto;
+	line-height: 22px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.sl-ext a {
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #DDD;
+	position: relative;
+	background: #fff;
+	color: #333;
+	font-size: 12px;
+}
+.sl-ext .sl-e-more {
+	margin-right: 10px;
+	padding: 0 7px 0 4px;
+	visibility: hidden;
+	color: #333;
+	border: 1px solid #ddd;
+}
+
+.sl-ext .sl-e-multiple {
+	padding: 0 3px 0 5px;
+	background: #fff;
+}
+.sl-ext .sl-e-multiple i img{
+	margin-top:-3px;
+	margin-right: 3px;
+}
+.sl-ext .sl-e-more i img{
+	margin-top:-3px;
+	margin-right: 3px;
+}
+.sl-v-list li a:hover {
+    text-decoration: none;
+    color: #009944;
+}
+#ss .sl-v-list li {
+    float: left;
+    _display: inline;
+    margin-right: 30px;
+    margin-bottom: 4px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.sl-v-list li a {
+	position: relative;
+	font-size: 13px;
+    float: left;
+    white-space: nowrap;
+    zoom: 1;
+    color: #666;
+}
+.multiple .sl-v-list li a {
+    position: relative;
+    padding-left: 18px;
+}
+.multiple .sl-v-list li a i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 0;
+}
+.multiple {
+   /* margin-top: 0px;*/
+    border: 2px solid #A0D7A6!important;
+    background: #E3F0E5!important;
+}
+.multiple .sl-value {
+    margin-left: 108px;
+    background: #fff;
+}
+.sl-btns {
+    display: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    clear: both;
+    text-align: center;
+}
+.multiple .sl-btns {
+    display: block;
+}
+.btn-default {
+    border: 1px solid #DDD;
+   
+    color: #666;
+    background-color: #f7f7f7;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(top,#f7f7f7,#f2f2f2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f2f2f2', GradientType=0);
+}
+.btn {
+    display: inline-block;
+    border-radius: 2px;
+    background: #F7F7F7;
+    text-align:center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+     padding: 2px 13px 2px;
+}
+.btn.disabled {
+    padding: 4px 13px 5px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    cursor: default;
+    color: #CCC;
+    -webkit-filter: none;
+    opacity: .2;
+    filter: alpha(Opacity=20);
+    filter: alpha(Opacity=20);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #009944;
+    border-color: #009944;
+}
+.sl-v-logos{
+	height:60px;
+	overflow-y:hidden;
+}
+.multiple .sl-v-logos{
+	overflow-y:scroll!important;
+}
+#ss .multiple .sl-value .sl-v-logos li.selected,#ss .sl-value .sl-v-logos li:hover {
+    position: relative;
+    z-index: 5;
+    border-color: #009944;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.12);
+}
+#ss .multiple .sl-value .sl-v-logos li.selected a,#ss .sl-value .sl-v-logos li:hover a {
+    border-color: #009944;
+}
+#ss .multiple .sl-value .sl-v-logos li.selected i {
+    display: block;
+    position: absolute;
+    right: -2px;
+    bottom: -1px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/seacher.png) no-repeat;
+    background-size: 100%;
+}
+#ss .multiple .sl-b-letter {
+    display: block;
+}
+.multiple .sl-v-list li.selected a i {
+    border:solid 1px #a0d7a6;
+    background: url(../img/seach.png) no-repeat;
+    background-size:100% 100%;
+}
+.sl-b-selected .sl-b-key, .sl-b-selected .sl-v-list{
+	float:left;
+	font-size:13px;
+	height:auto;
+	line-height: 28px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color:#077036;
+    border-color: #077036;
+}

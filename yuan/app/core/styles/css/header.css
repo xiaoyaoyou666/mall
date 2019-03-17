@@ -1,0 +1,153 @@
+header {
+    width: auto;
+    background: #ebebeb;
+    height: 30px;
+    line-height: 30px;
+}
+
+header a {
+    text-decoration: none!important;
+    color: #888;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header .header-bottom ul{
+    overflow: visible;
+}
+header p {
+    float: left;
+}
+
+header ul li {
+    float: left;
+}
+
+.header_top {
+    height: 30px;
+    width: 1200px;
+    min-width: 1200px;
+    background: #ebebeb;
+}
+
+.header_top span {
+    margin: 0px;
+    margin-right: 12px;
+    padding: 0px;
+    text-align: center;
+    width: 18px;
+    height: 12px;
+    line-height: 12px;
+    background: #fe9010;
+    position: absolute;
+    border-radius: 4px;
+    color: #fff!important;
+    top: 2px;
+    right: 2px;
+    font-size: 8px;
+    padding-left:0px;
+}
+
+.header_top a {
+    margin: 0px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px 20px 0px 20px;
+    border-left: solid 1px #ccc;
+    -webkit-transition: all 0s;
+}
+
+.header_top li {
+    border-right: solid 1px #ebebeb;
+    border-left: solid 1px #ebebeb;
+    position: relative;
+}
+
+header .full_right {
+    float: right;
+}
+
+header #alert_phone{
+    position: fixed;
+    top: 29px;
+    z-index: 500;
+    width: 120px;
+    padding-left: 10px;
+    height: 30px;
+    margin-left: -1px;
+    background-color: #fff;
+    display: none;
+    border: solid 1px #ccc;
+    border-top: 0px;
+    z-index: 1000;
+    line-height: 30px;
+}
+
+header .header-bottom {
+    height: 86px;
+    line-height: 86px;
+    display: block;
+}
+
+header .header-bottom a {
+    color: #000;
+    font-size: 16px;
+}
+header .header-bottom a:hover{
+    color:#009944;
+}
+header .header-bottom li {
+    margin-right: 35px;
+}
+/*header .header-bottom li:not(:first-child){padding-top:11px;}*/
+header input,
+header select {
+    vertical-align: middle;
+    border: solid 1px #ccc;
+    outline: none;
+}
+header select {
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    /*将背景改为红色*/
+    background:url(../images/index/down.png) no-repeat 5px !important;
+    /*加padding防止文字覆盖*/
+    padding-left: 25px;
+    padding-right: 16px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+header select::-ms-expand { display: none; }
+header .input_tx {
+    height: 30px;
+    width: 200px;
+    /*background: url(../images/index/sousuo.png) no-repeat right 10px center;*/
+    padding-right: 10px;
+    padding-left:10px;
+}
+header select {
+    height: 30px;
+    line-height: 30px;
+}
+.b86{
+    margin-bottom:86px;
+}
+
+.input_span {
+    float: right;
+    display: inline-block;
+    width: 34px;
+    height: 30px;
+    background: url(../images/index/sousuo2.png) no-repeat right;
+    background-size: 100% 100%;
+    margin-left: -2px;
+    cursor: pointer;
+    border: solid 1px #ccc;
+}
+.phone_icon img{
+	width:20px;
+	margin-top:-3px;
+}
+#alert_phone{height: 124px!important;}

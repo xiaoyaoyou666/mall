@@ -1,0 +1,21 @@
+#content {
+	padding: 20px;
+	width:calc(100% - 220px);
+}
+
+.head {
+	padding: 10px 0px;
+}
+.head a{
+	color:#0078AD;
+}
+.layui-form-label {
+	padding: 5px 10px;
+}
+heaer a{
+    color:#333!important;
+}
+input {
+	width: 140px!important;
+	height: 30px!important;
+}

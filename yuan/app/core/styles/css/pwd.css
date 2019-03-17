@@ -1,0 +1,116 @@
+body{
+	font-family: "微软雅黑";
+}
+#head_s {
+	border-bottom: solid 2px #C0C0C0;
+	margin-top: 50px;
+}
+
+.col-sm-12 {
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#head_s p {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: -2px;
+}
+
+#head_s p span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	/*background: #009944;*/
+	background: #393d47;
+	color: #fff;
+	border-radius: 30px;
+	margin-right: 10px;
+}
+
+#head_s p:first-child {
+	border-bottom: solid 4px #009944;
+}
+
+.border_k {
+	margin-top: 80px;
+	width: 100%;
+	height: 120px;
+	border: solid 2px #ff930e;
+	padding-left: 200px;
+	background: rgba(255, 147, 14, 0.1);
+}
+
+.border_k p {
+	float: left;
+	padding-top: 28px;
+}
+
+.border_k p span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.border_k a {
+	color: #ff3333;
+	text-decoration: none;
+}
+
+input {
+	width: 240px;
+	height: 30px;
+	line-height:30px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff!important;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding-left:10px;
+}
+
+button {
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	width: 180px;
+	padding: 0 20px;
+	background-color: #009944;
+	border-radius: 2px;
+	border: none;
+
+	margin-left:100px;
+    margin-top:20px;
+}
+
+button:hover {
+	background: #067838;
+}
+
+#find_pwd {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#find_pwd input:focus {
+	outline: none;
+}
+
+.red {
+	color: #f00;
+	font-size: 13px;
+	margin-left:10px;
+}
+.name{
+	color:#009944;
+	margin:0px 2px;
+}
+ input:-webkit-autofill { 
+-webkit-box-shadow: 0 0 0px 1000px white inset; 
+} 

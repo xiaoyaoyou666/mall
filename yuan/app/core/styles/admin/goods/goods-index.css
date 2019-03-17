@@ -1,0 +1,23 @@
+
+.g-content{
+    /* padding:20px; */
+}
+.goods-table{
+    text-align: center;
+}
+.goods-table > thead > tr > th{
+    text-align: center;
+}
+.goods-table > tbody > tr > td > a {
+    margin-right:15px;
+}
+.rotate90{
+    font-size:14px;
+    color: #acacac;
+    display: inline-block;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); /* Internet Explorer */
+    -moz-transform:rotate(90deg); /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg); /* Opera */
+}

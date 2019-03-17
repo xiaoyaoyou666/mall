@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/base.js"></script>
+		<script src="layui/layui.js"></script>
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="css/base.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/order_list.css" />
+		<style>
+			.modal-dialog {
+				width: 500px!important;
+			}
+			
+			#add {
+				position: absolute;
+				right: 10px;
+				width: 100px;
+				height: 50px;
+				cursor: pointer;
+			}
+			
+			#add i {
+				margin-right: 5px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header></header>
+		<div class="layui-row" id="content">
+			<div class="layui-col-sm12">
+				<div class="head">当前位置 : <a href="index.php?user-master-user">订单中心</a>&nbsp;&gt;&nbsp;订单列表</div>
+				<div class="order_lengs">此处的订单编号查询不受订单状态限制，历史订单列表只显示三个月前的订单</div>
+				<div class="tab_list">
+					<ul>
+						<li><span>所有订单</span></li>
+						<li><span>待卖家确认</span></li>
+						<li><span>待卖家发货</span></li>
+						<li><span>待买家收货</span></li>
+						<li><span>已完成</span></li>
+						<li><span>退/换货</span></li>
+						<li><span>交易关闭</span></li>
+						<li><span>历史订单</span></li>
+					</ul>
+				</div>
+				<div class="input_k">
+					<ul>
+						<li><span>订单编号：</span><input type="text"></li>
+						<li><span>用户名：</span><input type="text"></li>
+						<li style="width:50%;"><span>选择时间段：</span><input type="text" id="test1">--<input type="text" id="test1"></li>
+					</ul>
+					<ul style="clear: both;">
+						<li><span>商品名称：</span><input type="text"></li>
+						<li><span>买方：</span><input type="text"></li>
+						<li><span>卖方：</span><input type="text"></li>
+					</ul>
+				</div>
+				<form class="layui-form" action="">
+					<div style="height:50px;line-height:50px;padding-left:20px;">
+						<input type="radio" name="x" value="全选" title="全选" checked>
+						<input type="radio" name="x" value="反选" title="反选">
+						<button class="layui-btn layui-btn-sm">批量删除</button>
+						<button class="layui-btn layui-btn-sm" style="float:right;margin-top: 10px;">刷新</button>
+						<button class="layui-btn layui-btn-sm" style="float:right;margin-top: 10px;">导出</button>
+					</div>
+					<!--表格-->
+					<table class="layui-table" lay-size="sm">
+						<colgroup>
+							<col width="30">
+							<col>
+						</colgroup>
+						<thead>
+							<tr>
+								<th><input type="checkbox" name="" lay-skin="primary"> </th>
+								<th>订单编号</th>
+								<th>提交时间</th>
+								<th>买方</th>
+								<th>卖方</th>
+								<th>商品名称</th>
+								<th>支付方式</th>
+								<th>订单总额(元)</th>
+								<th>订单状态</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!--数据事需要后台循环显示的-->
+							<tr>
+								<td><input type="checkbox" name="" lay-skin="primary"> </td>
+								<td>1234dsfsdfdsf</td>
+								<td>2016-11-29</td>
+								<td>1234</td>
+								<td>2016-11-29</td>
+								<td>2016-11-29</td>
+								<td>2016-11-29</td>
+								<td>2016-11-29</td>
+								<td>2016-11-29</td>
+								<td><a href="user_xq.html" class="layui-btn layui-btn-xs layui-btn-radius layui-btn-normal"><i class="layui-icon ">&#xe62d;</i>查看详情 </a></td>
+							</tr>
+							<!--分割-->
+						</tbody>
+					</table>
+				</form>
+				<!--分页-->
+				<ul class="pagination pull-right">
+					<li><a target="" href="index.php?item-master-items&amp;page=1">|‹</a></li>
+					<li><a href="#" class="current ym_on">1</a></li>
+					<li><a target="" href="index.php?item-master-items&amp;page=2">2</a>
+						<li><a target=" " href="index.php?item-master-items&amp;page=10">3</a></li>
+						<li><a target=" " href="index.php?item-master-items&amp;page=11 "> &gt;&gt; </a></li>
+						<li><a target=" " href="index.php?item-master-items&amp;page=11 ">›|</a></li>
+						<li><a>共102条数据</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<script>
+			layui.use(['laydate', 'form'], function() {
+				var laydate = layui.laydate
+				laydate.render({
+					elem: '#test1'//指定元素
+					,type: 'datetime'
+				});
+			});
+		</script>
+	</body>
+
+</html>

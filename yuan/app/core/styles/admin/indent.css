@@ -1,0 +1,33 @@
+i,b,em{font-style: normal;}
+.table_l th,td{padding: 9px 15px!important;}
+.good{font-size: 16px;font-family:PingFangSC-Regular;color:#666666;margin: 10px 0;}
+.present{background:#ffffff;border:1px solid #e6e6e6;width:100%;height:78px;}
+.present .presents{padding: 11px 0px 9px 21px;float: left;}
+.present .presents .current{}
+.present .presents .current .state{color: deepskyblue;}
+.present .presents .current .cause{padding-left: 200px;}
+.present .presents .currents{padding-top: 20px;}
+.present .presents .currents .buyer{padding-right: 30px;}
+.present .presents .currents .telphone{padding-right:175px;}
+.present .presents .currents .user{padding-right:30px;}
+.alter{float:right;margin: 38px 48px 11px 0px;}
+.shop_img{width: 78px;height: 58px;border:1px solid #e6e6e6;margin: 10px 7px 5px;float: left;}
+.shop_img img{width: 74%;height: auto;vertical-align:middle;margin-top: 8px;}
+.table_a{width: ;}
+.good_state{float: left;line-height: 80px;margin-left: 15px;width: 92px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.line_item{width: 100%;padding: 22px 19px 6px 19px;border: 1px solid #e6e6e6;}
+.line_item p{margin-bottom: 16px;color: #666;cursor: pointer;}
+.line_item p .location_url{margin-left: 200px;}
+.line_item p .user_name{margin-left: 150px;}
+.line_item p .phone_number{margin-left: 100px;}
+/*订单统计*/
+.shop_list{width: 100%;display: flex;justify-content: space-between;}
+.shop_list .liv{background:#ffffff;border:1px solid #e6e6e6;width:378px;height:118px;box-sizing: border-box;}
+.liv dt{float: right;}
+.liv dt img{margin: -11px 34px 19px 0;}
+.liv dd{}
+.liv .liv_a{font-family:PingFangSC-Regular;font-size:16px;color:#bbbbbb;margin: 30px 0 6px 30px;}
+.liv .liv_b{font-family:PingFangSC-Regular;font-size:30px;color:#159587;margin-left: 30px;}
+
+
+

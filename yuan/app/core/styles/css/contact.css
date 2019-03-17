@@ -1,0 +1,31 @@
+#map,.adders{
+	float:left;	
+}
+.adders{
+	margin-left:40px;
+	color:#777;
+	line-height:26px;
+}
+.adders span,.fgs span{
+	display: block;
+	font-size:18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color:#423232;
+}
+.fgs p{
+	width:450px;
+	height:220px;
+	float:left;
+	border:solid 1px #eee;
+	padding:20px;
+	color:#666;
+	line-height: 30px;
+	border-radius: 5px;
+}
+.fgs{
+	height:260px;
+}
+.fgs p:first-child{
+	margin-right:20px;
+}

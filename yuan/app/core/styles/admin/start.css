@@ -1,0 +1,24 @@
+/*#content{
+	position: absolute;
+	top:50px;
+	left:50%;
+	transform: translate(-50%);
+}*/
+#content p{
+	height:60px;
+	line-height: 60px;
+}
+.zs {
+	display:inline-block;
+	width:60px;
+    margin-top: 5px;
+    background: url(../images/detail-zs-icon.png) top right no-repeat;
+    height: 18px;
+    line-height: 18px;
+    padding-right: 120px;
+}
+span{
+	display:inline-block;
+	/*margin-left:10px;*/
+	/*color:#f00;*/
+}

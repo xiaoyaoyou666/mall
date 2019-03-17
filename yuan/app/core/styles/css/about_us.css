@@ -1,0 +1,58 @@
+.container header {
+	text-align: center;
+	margin: 40px 0px 20px 0px;
+	background:#fff;
+}
+
+h4,hr {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size:20px!important;
+}
+
+hr {
+	width: 30px;
+	border: solid 2px #009944!important;
+	position: relative;
+	left:50%;
+	margin-left:-15px;
+	margin-top:0px!important;
+}
+
+.right_content p {
+	line-height: 30px;
+	color: #333;
+}
+
+.page {
+	width: 100%;
+	background: #F0F0F0 url('img/dian2.png') repeat-x;
+}
+.back{
+	background:rgba(238,238,238,0.3)!important;
+	border:solid 1px #eee;
+	border-radius: 5px;
+	margin-left:50px;
+	width:650px;
+	padding:14px 10px;
+}
+#time_z ul{
+	margin-left:20px;
+}
+#time_z ul li{
+	line-height: 36px;
+	margin-left:0px;
+	list-style-type:square!important;
+	color:#009944;
+}
+#com{
+	margin-bottom: 40px;
+	height:301px;
+}
+#com li{
+	width:280px;
+	float: left;
+}
+#com li:nth-child(2){
+	margin:0px 50px;
+}

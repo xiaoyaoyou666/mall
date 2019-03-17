@@ -1,0 +1,45 @@
+.lms{
+    background-color: lightblue;
+}
+.lm-add{
+    text-align: right;
+    padding:10px 10px 0 10px;
+    font-size: 24px;
+}
+.lm-add i{
+    font-size: 26px;
+}
+.leimu{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.leimu-block{
+    border:1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 10px;
+    padding:10px;
+    width:30%;
+}
+.leimu-block .title{
+    background-color: lightblue;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+}
+.leimu-block .list{
+    padding:10px 16px;
+    margin-bottom: 100px;
+}
+.lm-one{
+    overflow: hidden;
+    line-height: 30px;
+}
+.lm-one div:first-child{
+    float: left;
+}.lm-one div:last-child{
+    float: right;
+}

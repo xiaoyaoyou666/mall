@@ -1,0 +1,38 @@
+.plase_for{width: 100%;height: 30px;background:rgba(255,153,44,0.05);line-height: 30px;font-size: 14px;}
+.plase_for span{color: red;padding: 0 7px;}
+.writingArea{padding: 20px 20px;}
+.writingArea p{line-height: 33px;padding-bottom: 15px;}
+.writingArea p span{width: 140px;text-align: right;float: left;margin-right: 20px;display: inline-block;}
+.writingArea p .col_s{width: 300px;}
+.seles{width:129px!important;}
+/*.writingArea .opui {height: 50px;}*/
+.writingArea .opui span{width: 140px;text-align: right;float: left;margin-right: 20px;display: inline-block;}
+
+.unls{position: relative;height: 250px;}
+.unls .libs_one {position: absolute;}
+.unls .libs_two{position: absolute;left: 120px;}
+.unls .libs_three{position: absolute;left: 255px;}
+.unls .libs_fore{position: absolute;left: 390px;}
+.unls .libs_five{position: absolute;left: 528px;}
+.unls .libs_six{position: absolute;left: -15px;top: 127px;}
+.unls .libs_seven{position: absolute;left: 120px;top: 127px;}
+.unls .libs_eight{position: absolute;left: 255px;top: 127px;}
+.unls .libs_nine{position: absolute;left: 390px;top: 127px;}
+.unls .libs_ten{position: absolute;left: 528px;top: 127px;}
+.text_ps{position: absolute;bottom: -26px;}
+.applys{width: 88px!important;height: 36px!important;text-align: center!important;cursor: pointer;border-radius: 2px;}
+/*状态选择页*/
+.pass{width: 100%;height: 100%;background: url(../images/one_c.png) no-repeat;background-size: 100%;padding: 0;}
+.pass .hint_as{font-size:18px;color:#666666;text-align: center;padding-top: 145px;font-weight: 300}
+.pass a{color: #53b57e;font-size: 18px;}
+.pass img{width: 235px;margin: 50px 370px;}
+.submitted{width: 100%;height: 100%;background: url(../images/two_c.png) no-repeat;background-size: 100%;padding: 0;}
+.submitted .hint_as{font-size:18px;color:#666666;text-align: center;padding-top: 145px;font-weight: 300}
+.submitted a{color: #53b57e;font-size: 18px;}
+.submitted img{width: 235px;margin: 50px 370px;}
+.submitted .explain{font-size:14px;color:#888888;text-align:center;padding-top: 14px;}
+.credit_Card{width: 100%;height: 100%;background: url(../images/three_c.png) no-repeat;background-size: 100%;padding: 0;}
+.credit_Card .hint_as{font-size:18px;color:#666666;text-align: center;padding-top: 145px;font-weight: 300}
+.credit_Card a{color: #53b57e;font-size: 18px;}
+.credit_Card img{width: 235px;margin: 50px 370px;}
+
